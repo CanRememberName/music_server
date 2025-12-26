@@ -1,0 +1,13 @@
+com/music/server/model/Music.class
+com/music/server/repository/JsonMusicRepository.class
+com/music/server/config/WebMvcConfig.class
+com/music/server/controller/AdminController.class
+com/music/server/MusicApplication.class
+com/music/server/repository/MusicRepository.class
+com/music/server/controller/AuthController.class
+com/music/server/model/LoginRequest.class
+com/music/server/controller/MusicController.class
+com/music/server/config/AuthInterceptor.class
+com/music/server/repository/JsonMusicRepository$1.class
+com/music/server/config/RequestLoggingFilter.class
+com/music/server/model/ApiResponse.class

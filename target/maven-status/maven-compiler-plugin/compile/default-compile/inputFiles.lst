@@ -1,0 +1,12 @@
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/config/AuthInterceptor.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/repository/JsonMusicRepository.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/MusicApplication.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/model/ApiResponse.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/config/RequestLoggingFilter.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/controller/AdminController.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/controller/MusicController.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/repository/MusicRepository.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/config/WebMvcConfig.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/controller/AuthController.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/model/Music.java
+/Users/dhkj/Documents/music_server/backend/src/main/java/com/music/server/model/LoginRequest.java

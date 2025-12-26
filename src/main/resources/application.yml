@@ -1,0 +1,34 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+spring:
+  application:
+    name: music-server
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+      # password:  # Set if needed
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+app:
+  music:
+    base-path: /tmp/music_plan
+    # Derived paths
+    data-file: ${app.music.base-path}/db/music_data.json
+    files-dir: ${app.music.base-path}/files/
+    covers-dir: ${app.music.base-path}/covers/
+  auth:
+    username: admin
+    password: password123 # Simple auth for now
+    token-ttl-days: 7
+
+logging:
+  level:
+    com.music.server: DEBUG
