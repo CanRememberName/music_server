@@ -10,4 +10,9 @@ public class AdminController {
     public String adminPage() {
         return "upload";
     }
+
+    @GetMapping("/admin/login")
+    public String loginPage() {
+        return "login";
+    }
 }
