@@ -26,9 +26,6 @@ public class UserManageController {
     @Value("${app.auth.username}")
     private String adminUsername;
 
-    @Value("${app.auth.password}")
-    private String adminPassword;
-
     private final StringRedisTemplate redisTemplate;
 
     private final UserManageRepository userManageRepository;
@@ -85,8 +82,6 @@ public class UserManageController {
 
     @GetMapping("/list")
     public ApiResponse<List<User>> list() {
-        return ApiResponse.success(userManageRepository.findAll());
-
-//        return ApiResponse.success(userManageRepository.findAll().stream().filter(item -> !adminUsername.equals(item.getUsername())).collect(Collectors.toList()));
+        return ApiResponse.success(userManageRepository.findAll().stream().filter(item -> !adminUsername.equals(item.getUsername())).collect(Collectors.toList()));
     }
 }

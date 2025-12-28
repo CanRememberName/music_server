@@ -15,8 +15,8 @@ spring:
       password: 64aT1owqS7Klf6053SYdIu3FAvN7G0dl
   servlet:
     multipart:
-      max-file-size: 50MB
-      max-request-size: 50MB
+      max-file-size: 500MB
+      max-request-size: 500MB
 
 app:
   music:
@@ -28,7 +28,6 @@ app:
     covers-dir: ${app.music.base-path}/covers/
   auth:
     username: dihuangkaijia
-    password: kuaishou1234+ # Simple auth for now
     token-ttl-days: 7
 
 logging:
